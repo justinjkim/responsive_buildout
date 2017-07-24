@@ -93,6 +93,43 @@ section#main_content > div {
 
 section#sidebar_content > div {
   background-color: #ffd;
-  padding: 10px 5% 5px;
+  padding: 10px 5% 20px;
   margin: 20px 0;
+}
+
+footer#site_footer {
+  background-color: rgb(255, 221, 166);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+footer#site_footer a {
+  padding: 10px;
+}
+
+
+
+/******* TABLET BREAKPOINT **********/
+@media (min-width: 600px) {
+  nav#main_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  nav#main_nav a {
+    flex-grow: 1;
+    margin: 0 1%;
+  }
+
+  section#main_content h2 {
+    margin-top: 0;
+  }
+
+  section#main_content > div:nth-last-child(1) {
+    padding-bottom: 40px;
+  }
+
+
 }
