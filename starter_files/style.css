@@ -26,6 +26,7 @@ body{
 ul{
     padding-left: 20px;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 h1, h2, h3{
@@ -91,5 +92,12 @@ section#main_content {
 }
 
 section#sidebar_content {
+
+  padding: 10px 10%;
+}
+
+section#sidebar_content > div {
   background-color: #ffd;
+  margin: 10px 0;
+
 }
