@@ -81,13 +81,15 @@ header{
 
 
 
-/* MY OWN CSS */
+/************* MY OWN CSS ****************/
+/********* MOBILE LAYOUT ***********/
 #logo {
   text-align: center;
 }
 
 section#main_content {
   background-color: #dff;
+  border-radius: 5px;
 }
 
 section#main_content > div {
@@ -115,6 +117,9 @@ footer#site_footer {
 footer#site_footer a {
   padding: 10px;
 }
+
+
+
 
 
 
@@ -150,6 +155,8 @@ footer#site_footer a {
 
 
 
+
+
 /******* DESKTOP BREAKPOINT **********/
 @media (min-width: 1100px) {
   header {
@@ -179,7 +186,7 @@ footer#site_footer a {
   }
 
   section#main_content div:nth-child(2) {
-    flex-basis: 45%;
+    flex-basis: 45%; /**** don't know why but this one was the hardest to debug ******/
     padding-bottom: 0;
   }
 
