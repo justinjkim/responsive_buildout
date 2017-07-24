@@ -46,7 +46,7 @@ a:hover{
     color: blue;
 }
 
-header{ 
+header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
@@ -75,4 +75,21 @@ header{
 
 #main_nav a:hover{
     background: #ddddff;
+}
+
+
+
+
+/* MY OWN CSS */
+#logo {
+  text-align: center;
+}
+
+section#main_content {
+  background-color: #dff;
+  padding:10px 10%;
+}
+
+section#sidebar_content {
+  background-color: #ffd;
 }
